@@ -14,7 +14,7 @@ class ControllerAlo extends BaseController
     /**
      * Ordena marcas de autos alfabéticamente.
      *
-     * @param string[] $brands
+     * @param  string[]  $brands
      * @return string[]
      */
     public function ordenarMarcasAutos(array $brands): array
