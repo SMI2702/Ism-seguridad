@@ -12,7 +12,7 @@ class ExampleAlonsoTest extends TestCase
         $controller = new ControllerAlo;
 
         $input = ['Toyota', 'ford', ' BMW ', 'audi','chevy'];
-        $expected = ['audi', 'BMW', 'ford', 'Toyota','chevy'];
+        $expected = ['audi', 'BMW', 'chevy','ford', 'Toyota'];
 
         $result = $controller->ordenarMarcasAutos($input);
 
