@@ -12,7 +12,10 @@ class ControllerAlo extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     /**
-     * Recibe un array de marcas de autos y los ordena alfabéticamente.
+     * Ordena marcas de autos alfabéticamente.
+     *
+     * @param string[] $brands
+     * @return string[]
      */
     public function ordenarMarcasAutos(array $brands): array
     {
